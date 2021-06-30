@@ -1,0 +1,22 @@
+{
+    "author": "David Silverthorn",
+    "bugs": {
+        "url": "https://github.com/davidsilverthorn/tutorial-singleSignOn/issues"
+    },
+    "description": "",
+    "homepage": "https://github.com/davidsilverthorn/tutorial-singleSignOn#readme",
+    "license": "",
+    "main": "index.js",
+    "name": "singleSignOn-monorepo",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/davidsilverthorn/tutorial-singleSignOn.git"
+    },
+    "scripts": {
+        "build": "npm run build --workspace client"
+    },
+    "version": "1.0.0",
+    "workspaces": [
+        "packages/*"
+    ]
+}

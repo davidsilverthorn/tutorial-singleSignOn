@@ -1,0 +1,27 @@
+<div class="flex h-screen items-center justify-center">
+    <div class="bg-white flex h-24 overflow-hidden shadow w-96 sm:rounded-lg">
+        <img
+            class="h-14 inline-block ml-4 mt-4 rounded-full w-14 sm:mt-5"
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt=""
+        />
+        <div>
+            <div
+                class="py-4 sm:gap-4 sm:grid sm:grid-cols-3 sm:pb-2 sm:pt-6 sm:px-6"
+            >
+                <dt class="text-sm font-medium text-gray-500">Name</dt>
+                <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    John Doe
+                </dd>
+            </div>
+            <div
+                class="py-4 sm:gap-4 sm:grid sm:grid-cols-3 sm:pb-2 sm:pt-0 sm:px-6"
+            >
+                <dt class="text-sm font-medium text-gray-500">Email</dt>
+                <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    johndoe@doe.com
+                </dd>
+            </div>
+        </div>
+    </div>
+</div>
